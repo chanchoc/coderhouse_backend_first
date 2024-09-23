@@ -27,5 +27,5 @@ Se creo un gestor de productos (40 pre-cargados) y usuarios (4 pre-cargados) arm
 -   update → actualizar un recurso
 -   delete → eliminar un recurso
 
-Los errores son manejados mediante un errorHandler.< br / >
+Los errores son manejados mediante un errorHandler.<br />
 Las rutas no existentes son manejadas mediante un pathHandler.
