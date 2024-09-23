@@ -22,24 +22,10 @@ Se creo un gestor de productos (40 pre-cargados) y usuarios (4 pre-cargados) arm
 ### El servidor cuenta con la opción de:
 
 -   create → crear un nuevo recurso
-    ![Create product](image-2.png)
-    ![Error creating product → Title requiered](image-3.png)
-
 -   readAll → leer todos los recursos
-    ![ReadAll products](image.png)
-    ![ReadAll users](image-1.png)
-
 -   readOne → leer un recurso particular mediante su Id
-    ![ReadOne product](image-4.png)
-    ![ReadOne user](image-5.png)
-
 -   update → actualizar un recurso
-    ![Update user](image-6.png)
-    ![Error updating user](image-7.png)
-
 -   delete → eliminar un recurso
-    ![Delete product](image-8.png)
-    ![Error deleting product](image-9.png)
 
 Los errores son manejados mediante un errorHandler.<br />
 Las rutas no existentes son manejadas mediante un pathHandler.
