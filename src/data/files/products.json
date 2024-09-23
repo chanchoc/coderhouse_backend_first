@@ -1,322 +1,322 @@
 [
-  {
-    "id": "7d6f0a4b2e1c3e9fabcd1234",
-    "title": "Riñonera Palermo",
-    "photo": "./files/images/products/riñonera_palermo.png",
-    "category": "riñoneras",
-    "price": 8000,
-    "stock": 30
-  },
-  {
-    "id": "9a8f2b1c3d4e5f6a7b8c9d0e",
-    "title": "Riñonera Belgrano",
-    "photo": "./files/images/products/riñonera_belgrano.png",
-    "category": "riñoneras",
-    "price": 10000,
-    "stock": 25
-  },
-  {
-    "id": "c0f1e2d3a4b5c6d7e8f9a0b1",
-    "title": "Riñonera San Telmo",
-    "photo": "./files/images/products/riñonera_san_telmo.png",
-    "category": "riñoneras",
-    "price": 9000,
-    "stock": 20
-  },
-  {
-    "id": "4b3a2e1c5d6f7g8h9i0j1k2l",
-    "title": "Riñonera Recoleta",
-    "photo": "./files/images/products/riñonera_recoleta.png",
-    "category": "riñoneras",
-    "price": 9500,
-    "stock": 15
-  },
-  {
-    "id": "f2e3d4c5b6a7c8b9a0e1f2g3",
-    "title": "Riñonera Villa Urquiza",
-    "photo": "./files/images/products/riñonera_villa_urquiza.png",
-    "category": "riñoneras",
-    "price": 8500,
-    "stock": 40
-  },
-  {
-    "id": "3d2c1b0a5e6f7g8h9i0j1k2l",
-    "title": "Riñonera Avellaneda",
-    "photo": "./files/images/products/riñonera_avellaneda.png",
-    "category": "riñoneras",
-    "price": 7800,
-    "stock": 35
-  },
-  {
-    "id": "6a5b4c3d2e1f0g8h9i0j1k2l",
-    "title": "Riñonera La Boca",
-    "photo": "./files/images/products/riñonera_la_boca.png",
-    "category": "riñoneras",
-    "price": 9200,
-    "stock": 60
-  },
-  {
-    "id": "7e6d5c4b3a2f1g0h9i8j7k6l",
-    "title": "Riñonera Caballito",
-    "photo": "./files/images/products/riñonera_caballito.png",
-    "category": "riñoneras",
-    "price": 8000,
-    "stock": 30
-  },
-  {
-    "id": "8f7e6d5c4b3a2f1g0h9i8j7k",
-    "title": "Riñonera Villa Luro",
-    "photo": "./files/images/products/riñonera_villa_luro.png",
-    "category": "riñoneras",
-    "price": 8600,
-    "stock": 45
-  },
-  {
-    "id": "9a8b7c6d5e4f3g2h1i0j9k8l",
-    "title": "Riñonera San Nicolás",
-    "photo": "./files/images/products/riñonera_san_nicolas.png",
-    "category": "riñoneras",
-    "price": 9400,
-    "stock": 50
-  },
-  {
-    "id": "0b1c2d3e4f5a6b7c8d9e0f1g",
-    "title": "Riñonera San Fernando",
-    "photo": "./files/images/products/riñonera_san_fernando.png",
-    "category": "riñoneras",
-    "price": 9100,
-    "stock": 20
-  },
-  {
-    "id": "1c2d3e4f5a6b7c8d9e0f1g2h",
-    "title": "Riñonera San Martín",
-    "photo": "./files/images/products/riñonera_san_martin.png",
-    "category": "riñoneras",
-    "price": 8800,
-    "stock": 70
-  },
-  {
-    "id": "2d3e4f5a6b7c8d9e0f1g2h3i",
-    "title": "Riñonera Tigre",
-    "photo": "./files/images/products/riñonera_tigre.png",
-    "category": "riñoneras",
-    "price": 8300,
-    "stock": 25
-  },
-  {
-    "id": "3e4f5a6b7c8d9e0f1g2h3i4j",
-    "title": "Riñonera La Plata",
-    "photo": "./files/images/products/riñonera_la_plata.png",
-    "category": "riñoneras",
-    "price": 7500,
-    "stock": 80
-  },
-  {
-    "id": "4f5a6b7c8d9e0f1g2h3i4j5k",
-    "title": "Riñonera Neuquén",
-    "photo": "./files/images/products/riñonera_neuquen.png",
-    "category": "riñoneras",
-    "price": 8200,
-    "stock": 55
-  },
-  {
-    "id": "5a6b7c8d9e0f1g2h3i4j5k6l",
-    "title": "Riñonera Chaco",
-    "photo": "./files/images/products/riñonera_chaco.png",
-    "category": "riñoneras",
-    "price": 7800,
-    "stock": 65
-  },
-  {
-    "id": "6b7c8d9e0f1g2h3i4j5k6l7m",
-    "title": "Riñonera Jujuy",
-    "photo": "./files/images/products/riñonera_jujuy.png",
-    "category": "riñoneras",
-    "price": 8300,
-    "stock": 50
-  },
-  {
-    "id": "7c8d9e0f1g2h3i4j5k6l7m8n",
-    "title": "Riñonera Salta",
-    "photo": "./files/images/products/riñonera_salta.png",
-    "category": "riñoneras",
-    "price": 8700,
-    "stock": 40
-  },
-  {
-    "id": "8d9e0f1g2h3i4j5k6l7m8n9o",
-    "title": "Riñonera Mendoza",
-    "photo": "./files/images/products/riñonera_mendoza.png",
-    "category": "riñoneras",
-    "price": 8000,
-    "stock": 30
-  },
-  {
-    "id": "9e0f1g2h3i4j5k6l7m8n9o1p",
-    "title": "Riñonera Liniers",
-    "photo": "./files/images/products/riñonera_liniers.png",
-    "category": "riñoneras",
-    "price": 9000,
-    "stock": 20
-  },
-  {
-    "id": "1f2e3d4c5b6a7b8c9a0f1e2d",
-    "title": "Mochila Palermo",
-    "photo": "./files/images/products/mochila_palermo.png",
-    "category": "mochilas",
-    "price": 15000,
-    "stock": 30
-  },
-  {
-    "id": "2e3d4c5b6a7b8c9a0f1e2d3c",
-    "title": "Mochila Belgrano",
-    "photo": "./files/images/products/mochila_belgrano.png",
-    "category": "mochilas",
-    "price": 18000,
-    "stock": 25
-  },
-  {
-    "id": "3d4c5b6a7b8c9a0f1e2d3c4b",
-    "title": "Mochila San Telmo",
-    "photo": "./files/images/products/mochila_san_telmo.png",
-    "category": "mochilas",
-    "price": 12000,
-    "stock": 20
-  },
-  {
-    "id": "4c5b6a7b8c9a0f1e2d3c4b5a",
-    "title": "Mochila Recoleta",
-    "photo": "./files/images/products/mochila_recoleta.png",
-    "category": "mochilas",
-    "price": 16000,
-    "stock": 15
-  },
-  {
-    "id": "5b6a7b8c9a0f1e2d3c4b5a6c",
-    "title": "Mochila Villa Urquiza",
-    "photo": "./files/images/products/mochila_villa_urquiza.png",
-    "category": "mochilas",
-    "price": 14000,
-    "stock": 40
-  },
-  {
-    "id": "6a7b8c9a0f1e2d3c4b5a6c7d",
-    "title": "Mochila Avellaneda",
-    "photo": "./files/images/products/mochila_avellaneda.png",
-    "category": "mochilas",
-    "price": 13000,
-    "stock": 35
-  },
-  {
-    "id": "7b8c9a0f1e2d3c4b5a6c7d8e",
-    "title": "Mochila La Boca",
-    "photo": "./files/images/products/mochila_la_boca.png",
-    "category": "mochilas",
-    "price": 17000,
-    "stock": 60
-  },
-  {
-    "id": "8c9a0f1e2d3c4b5a6c7d8e9f",
-    "title": "Mochila Caballito",
-    "photo": "./files/images/products/mochila_caballito.png",
-    "category": "mochilas",
-    "price": 15000,
-    "stock": 30
-  },
-  {
-    "id": "9a0f1e2d3c4b5a6c7d8e9f0g",
-    "title": "Mochila Villa Luro",
-    "photo": "./files/images/products/mochila_villa_luro.png",
-    "category": "mochilas",
-    "price": 15500,
-    "stock": 45
-  },
-  {
-    "id": "0f1e2d3c4b5a6c7d8e9f0g1h",
-    "title": "Mochila San Nicolás",
-    "photo": "./files/images/products/mochila_san_nicolas.png",
-    "category": "mochilas",
-    "price": 16500,
-    "stock": 50
-  },
-  {
-    "id": "1e2d3c4b5a6c7d8e9f0g1h2i",
-    "title": "Mochila San Fernando",
-    "photo": "./files/images/products/mochila_san_fernando.png",
-    "category": "mochilas",
-    "price": 15800,
-    "stock": 20
-  },
-  {
-    "id": "2d3c4b5a6c7d8e9f0g1h2i3j",
-    "title": "Mochila San Martín",
-    "photo": "./files/images/products/mochila_san_martin.png",
-    "category": "mochilas",
-    "price": 14500,
-    "stock": 70
-  },
-  {
-    "id": "3c4b5a6c7d8e9f0g1h2i3j4k",
-    "title": "Mochila Tigre",
-    "photo": "./files/images/products/mochila_tigre.png",
-    "category": "mochilas",
-    "price": 13500,
-    "stock": 25
-  },
-  {
-    "id": "4b5a6c7d8e9f0g1h2i3j4k5l",
-    "title": "Mochila La Plata",
-    "photo": "./files/images/products/mochila_la_plata.png",
-    "category": "mochilas",
-    "price": 12500,
-    "stock": 80
-  },
-  {
-    "id": "5a6c7d8e9f0g1h2i3j4k5l6m",
-    "title": "Mochila Neuquén",
-    "photo": "./files/images/products/mochila_neuquen.png",
-    "category": "mochilas",
-    "price": 15500,
-    "stock": 55
-  },
-  {
-    "id": "6a7d8e9f0g1h2i3j4k5l6m7n",
-    "title": "Mochila Chaco",
-    "photo": "./files/images/products/mochila_chaco.png",
-    "category": "mochilas",
-    "price": 11500,
-    "stock": 65
-  },
-  {
-    "id": "7b8e9f0g1h2i3j4k5l6m7n8o",
-    "title": "Mochila Jujuy",
-    "photo": "./files/images/products/mochila_jujuy.png",
-    "category": "mochilas",
-    "price": 14000,
-    "stock": 50
-  },
-  {
-    "id": "8c9f0g1h2i3j4k5l6m7n8o9p",
-    "title": "Mochila Salta",
-    "photo": "./files/images/products/mochila_salta.png",
-    "category": "mochilas",
-    "price": 16000,
-    "stock": 40
-  },
-  {
-    "id": "9d0g1h2i3j4k5l6m7n8o9p0q",
-    "title": "Mochila Mendoza",
-    "photo": "./files/images/products/mochila_mendoza.png",
-    "category": "mochilas",
-    "price": 13000,
-    "stock": 30
-  },
-  {
-    "title": "Mochila Chaco",
-    "category": "mochilas",
-    "price": 13600,
-    "stock": 92,
-    "photo": "./files/images/products/mochila_chaco.png",
-    "id": "dedea03a46bed23b48384c5f"
-  }
+    {
+        "id": "7d6f0a4b2e1c3e9fabcd1234",
+        "title": "Riñonera Palermo",
+        "photo": "./files/images/products/riñonera_palermo.png",
+        "category": "riñoneras",
+        "price": 8000,
+        "stock": 30
+    },
+    {
+        "id": "9a8f2b1c3d4e5f6a7b8c9d0e",
+        "title": "Riñonera Belgrano",
+        "photo": "./files/images/products/riñonera_belgrano.png",
+        "category": "riñoneras",
+        "price": 10000,
+        "stock": 25
+    },
+    {
+        "id": "c0f1e2d3a4b5c6d7e8f9a0b1",
+        "title": "Riñonera San Telmo",
+        "photo": "./files/images/products/riñonera_san_telmo.png",
+        "category": "riñoneras",
+        "price": 9000,
+        "stock": 20
+    },
+    {
+        "id": "4b3a2e1c5d6f7g8h9i0j1k2l",
+        "title": "Riñonera Recoleta",
+        "photo": "./files/images/products/riñonera_recoleta.png",
+        "category": "riñoneras",
+        "price": 9500,
+        "stock": 15
+    },
+    {
+        "id": "f2e3d4c5b6a7c8b9a0e1f2g3",
+        "title": "Riñonera Villa Urquiza",
+        "photo": "./files/images/products/riñonera_villa_urquiza.png",
+        "category": "riñoneras",
+        "price": 8500,
+        "stock": 40
+    },
+    {
+        "id": "3d2c1b0a5e6f7g8h9i0j1k2l",
+        "title": "Riñonera Avellaneda",
+        "photo": "./files/images/products/riñonera_avellaneda.png",
+        "category": "riñoneras",
+        "price": 7800,
+        "stock": 35
+    },
+    {
+        "id": "6a5b4c3d2e1f0g8h9i0j1k2l",
+        "title": "Riñonera La Boca",
+        "photo": "./files/images/products/riñonera_la_boca.png",
+        "category": "riñoneras",
+        "price": 9200,
+        "stock": 60
+    },
+    {
+        "id": "7e6d5c4b3a2f1g0h9i8j7k6l",
+        "title": "Riñonera Caballito",
+        "photo": "./files/images/products/riñonera_caballito.png",
+        "category": "riñoneras",
+        "price": 8000,
+        "stock": 30
+    },
+    {
+        "id": "8f7e6d5c4b3a2f1g0h9i8j7k",
+        "title": "Riñonera Villa Luro",
+        "photo": "./files/images/products/riñonera_villa_luro.png",
+        "category": "riñoneras",
+        "price": 8600,
+        "stock": 45
+    },
+    {
+        "id": "9a8b7c6d5e4f3g2h1i0j9k8l",
+        "title": "Riñonera San Nicolás",
+        "photo": "./files/images/products/riñonera_san_nicolas.png",
+        "category": "riñoneras",
+        "price": 9400,
+        "stock": 50
+    },
+    {
+        "id": "0b1c2d3e4f5a6b7c8d9e0f1g",
+        "title": "Riñonera San Fernando",
+        "photo": "./files/images/products/riñonera_san_fernando.png",
+        "category": "riñoneras",
+        "price": 9100,
+        "stock": 20
+    },
+    {
+        "id": "1c2d3e4f5a6b7c8d9e0f1g2h",
+        "title": "Riñonera San Martín",
+        "photo": "./files/images/products/riñonera_san_martin.png",
+        "category": "riñoneras",
+        "price": 8800,
+        "stock": 70
+    },
+    {
+        "id": "2d3e4f5a6b7c8d9e0f1g2h3i",
+        "title": "Riñonera Tigre",
+        "photo": "./files/images/products/riñonera_tigre.png",
+        "category": "riñoneras",
+        "price": 8300,
+        "stock": 25
+    },
+    {
+        "id": "3e4f5a6b7c8d9e0f1g2h3i4j",
+        "title": "Riñonera La Plata",
+        "photo": "./files/images/products/riñonera_la_plata.png",
+        "category": "riñoneras",
+        "price": 7500,
+        "stock": 80
+    },
+    {
+        "id": "4f5a6b7c8d9e0f1g2h3i4j5k",
+        "title": "Riñonera Neuquén",
+        "photo": "./files/images/products/riñonera_neuquen.png",
+        "category": "riñoneras",
+        "price": 8200,
+        "stock": 55
+    },
+    {
+        "id": "5a6b7c8d9e0f1g2h3i4j5k6l",
+        "title": "Riñonera Chaco",
+        "photo": "./files/images/products/riñonera_chaco.png",
+        "category": "riñoneras",
+        "price": 7800,
+        "stock": 65
+    },
+    {
+        "id": "6b7c8d9e0f1g2h3i4j5k6l7m",
+        "title": "Riñonera Jujuy",
+        "photo": "./files/images/products/riñonera_jujuy.png",
+        "category": "riñoneras",
+        "price": 8300,
+        "stock": 50
+    },
+    {
+        "id": "7c8d9e0f1g2h3i4j5k6l7m8n",
+        "title": "Riñonera Salta",
+        "photo": "./files/images/products/riñonera_salta.png",
+        "category": "riñoneras",
+        "price": 8700,
+        "stock": 40
+    },
+    {
+        "id": "8d9e0f1g2h3i4j5k6l7m8n9o",
+        "title": "Riñonera Mendoza",
+        "photo": "./files/images/products/riñonera_mendoza.png",
+        "category": "riñoneras",
+        "price": 8000,
+        "stock": 30
+    },
+    {
+        "id": "9e0f1g2h3i4j5k6l7m8n9o1p",
+        "title": "Riñonera Liniers",
+        "photo": "./files/images/products/riñonera_liniers.png",
+        "category": "riñoneras",
+        "price": 9000,
+        "stock": 20
+    },
+    {
+        "id": "1f2e3d4c5b6a7b8c9a0f1e2d",
+        "title": "Mochila Palermo",
+        "photo": "./files/images/products/mochila_palermo.png",
+        "category": "mochilas",
+        "price": 15000,
+        "stock": 30
+    },
+    {
+        "id": "2e3d4c5b6a7b8c9a0f1e2d3c",
+        "title": "Mochila Belgrano",
+        "photo": "./files/images/products/mochila_belgrano.png",
+        "category": "mochilas",
+        "price": 18000,
+        "stock": 25
+    },
+    {
+        "id": "3d4c5b6a7b8c9a0f1e2d3c4b",
+        "title": "Mochila San Telmo",
+        "photo": "./files/images/products/mochila_san_telmo.png",
+        "category": "mochilas",
+        "price": 12000,
+        "stock": 20
+    },
+    {
+        "id": "4c5b6a7b8c9a0f1e2d3c4b5a",
+        "title": "Mochila Recoleta",
+        "photo": "./files/images/products/mochila_recoleta.png",
+        "category": "mochilas",
+        "price": 16000,
+        "stock": 15
+    },
+    {
+        "id": "5b6a7b8c9a0f1e2d3c4b5a6c",
+        "title": "Mochila Villa Urquiza",
+        "photo": "./files/images/products/mochila_villa_urquiza.png",
+        "category": "mochilas",
+        "price": 14000,
+        "stock": 40
+    },
+    {
+        "id": "6a7b8c9a0f1e2d3c4b5a6c7d",
+        "title": "Mochila Avellaneda",
+        "photo": "./files/images/products/mochila_avellaneda.png",
+        "category": "mochilas",
+        "price": 13000,
+        "stock": 35
+    },
+    {
+        "id": "7b8c9a0f1e2d3c4b5a6c7d8e",
+        "title": "Mochila La Boca",
+        "photo": "./files/images/products/mochila_la_boca.png",
+        "category": "mochilas",
+        "price": 17000,
+        "stock": 60
+    },
+    {
+        "id": "8c9a0f1e2d3c4b5a6c7d8e9f",
+        "title": "Mochila Caballito",
+        "photo": "./files/images/products/mochila_caballito.png",
+        "category": "mochilas",
+        "price": 15000,
+        "stock": 30
+    },
+    {
+        "id": "9a0f1e2d3c4b5a6c7d8e9f0g",
+        "title": "Mochila Villa Luro",
+        "photo": "./files/images/products/mochila_villa_luro.png",
+        "category": "mochilas",
+        "price": 15500,
+        "stock": 45
+    },
+    {
+        "id": "0f1e2d3c4b5a6c7d8e9f0g1h",
+        "title": "Mochila San Nicolás",
+        "photo": "./files/images/products/mochila_san_nicolas.png",
+        "category": "mochilas",
+        "price": 16500,
+        "stock": 50
+    },
+    {
+        "id": "1e2d3c4b5a6c7d8e9f0g1h2i",
+        "title": "Mochila San Fernando",
+        "photo": "./files/images/products/mochila_san_fernando.png",
+        "category": "mochilas",
+        "price": 15800,
+        "stock": 20
+    },
+    {
+        "id": "2d3c4b5a6c7d8e9f0g1h2i3j",
+        "title": "Mochila San Martín",
+        "photo": "./files/images/products/mochila_san_martin.png",
+        "category": "mochilas",
+        "price": 14500,
+        "stock": 70
+    },
+    {
+        "id": "3c4b5a6c7d8e9f0g1h2i3j4k",
+        "title": "Mochila Tigre",
+        "photo": "./files/images/products/mochila_tigre.png",
+        "category": "mochilas",
+        "price": 13500,
+        "stock": 25
+    },
+    {
+        "id": "4b5a6c7d8e9f0g1h2i3j4k5l",
+        "title": "Mochila La Plata",
+        "photo": "./files/images/products/mochila_la_plata.png",
+        "category": "mochilas",
+        "price": 12500,
+        "stock": 80
+    },
+    {
+        "id": "5a6c7d8e9f0g1h2i3j4k5l6m",
+        "title": "Mochila Neuquén",
+        "photo": "./files/images/products/mochila_neuquen.png",
+        "category": "mochilas",
+        "price": 15500,
+        "stock": 55
+    },
+    {
+        "id": "6a7d8e9f0g1h2i3j4k5l6m7n",
+        "title": "Mochila Chaco",
+        "photo": "./files/images/products/mochila_chaco.png",
+        "category": "mochilas",
+        "price": 11500,
+        "stock": 65
+    },
+    {
+        "id": "7b8e9f0g1h2i3j4k5l6m7n8o",
+        "title": "Mochila Jujuy",
+        "photo": "./files/images/products/mochila_jujuy.png",
+        "category": "mochilas",
+        "price": 14000,
+        "stock": 50
+    },
+    {
+        "id": "8c9f0g1h2i3j4k5l6m7n8o9p",
+        "title": "Mochila Salta",
+        "photo": "./files/images/products/mochila_salta.png",
+        "category": "mochilas",
+        "price": 16000,
+        "stock": 40
+    },
+    {
+        "id": "9d0g1h2i3j4k5l6m7n8o9p0q",
+        "title": "Mochila Mendoza",
+        "photo": "./files/images/products/mochila_mendoza.png",
+        "category": "mochilas",
+        "price": 13000,
+        "stock": 30
+    },
+    {
+        "title": "Mochila Chaco",
+        "category": "mochilas",
+        "price": 13600,
+        "stock": 92,
+        "photo": "./files/images/products/mochila_chaco.png",
+        "id": "dedea03a46bed23b48384c5f"
+    }
 ]
