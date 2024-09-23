@@ -1,0 +1,30 @@
+[
+    {
+        "email": "santiago.curat@gmail.com",
+        "password": "1234",
+        "photo": "./files/images/users/santiago_curat.png",
+        "role": 0,
+        "id": "7f4cc6ea27de8770ed4eaa54"
+    },
+    {
+        "email": "carlos.calvo@gmail.com",
+        "password": "45645",
+        "role": 1,
+        "photo": "./files/images/users/carlos_calvo.png",
+        "id": "c9879843926d3e82a1dc7675"
+    },
+    {
+        "email": "juan.gomez@gmail.com",
+        "password": "78679",
+        "role": 0,
+        "photo": "./files/images/users/juan_gomez.png",
+        "id": "4eef125e388825e8aee1c782"
+    },
+    {
+        "email": "ignacio.cayol@gmail.com",
+        "password": "01239",
+        "role": 2,
+        "photo": "./files/images/users/ignacio_cayol.png",
+        "id": "f43a57eb84dda64b144e0976"
+    }
+]
