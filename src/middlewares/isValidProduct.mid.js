@@ -1,8 +1,16 @@
 function isValidProduct(req, res, next) {
     try {
-        const { title } = req.body;
+        const { title, price, stock } = req.body;
         if (!title || title === "") {
             const error = new Error("Title is required");
+            error.statusCode = 400;
+            throw error;
+        } else if (isNaN(price)) {
+            const error = new Error("Price must be a number");
+            error.statusCode = 400;
+            throw error;
+        } else if (isNaN(stock)) {
+            const error = new Error("Stock must be a number");
             error.statusCode = 400;
             throw error;
         } else {
