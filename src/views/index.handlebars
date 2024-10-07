@@ -1,0 +1,38 @@
+<h1 class="mb-3">Bienvenidos a Rowa Bags!</h1>
+<img src="../../public/assets/banner.webp" alt="Rowa Bags banner" class="object-fit-cover w-100 rounded" />
+<div class="d-flex flex-column my-3 gap-3">
+    <h2>Top Mochilas:</h2>
+    <section class="d-flex flex-row flex-wrap justify-content-evenly gap-3">
+        {{#each mochilas}}
+            <div class="card bg-secondary-subtle shadow-sm border border-dark-subtle" style="width: 18rem;">
+                <img src={{this.photo}} class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">{{this.title}}</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">{{this.category}}</h6>
+                    <p class="card-text">${{this.price}} - {{this.stock}}u</p>
+                    <a href="/products/{{this.id}}" class="btn btn-primary">Link</a>
+                </div>
+            </div>
+        {{/each}}
+    </section>
+    <div class="w-100 text-end">
+        <a href="/products?category=mochilas" class="btn btn-secondary text-center">Ver todas las mochilas</a>
+    </div>
+    <h2>Top Riñoneras:</h2>
+    <section class="d-flex flex-row flex-wrap justify-content-evenly gap-3">
+        {{#each rinoneras}}
+            <div class="card bg-secondary-subtle shadow-sm border border-dark-subtle" style="width: 18rem;">
+                <img src={{this.photo}} class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">{{this.title}}</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">{{this.category}}</h6>
+                    <p class="card-text">${{this.price}} - {{this.stock}}u</p>
+                    <a href="/products/{{this.id}}" class="btn btn-primary">Link</a>
+                </div>
+            </div>
+        {{/each}}
+    </section>
+    <div class="w-100 text-end">
+        <a href="/products?category=riñoneras" class="btn btn-secondary text-center">Ver todas las riñoneras</a>
+    </div>
+</div>

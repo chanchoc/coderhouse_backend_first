@@ -13,8 +13,8 @@ function isValidUser(req, res, next) {
         } else {
             req.body.photo = req.body.photo
                 ? req.body.photo
-                : "./files/images/users/" + req.body.email.split("@")[0].replace(" ", "_").replace(".", "_") + ".png";
-            req.body.role = req.body.role ? req.body.role : 0;
+                : "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png";
+            req.body.role = req.body.role ? parseInt(req.body.role) : 0;
             return next();
         }
     } catch (error) {

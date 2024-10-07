@@ -1,0 +1,11 @@
+<div class="d-flex flex-row gap-5 justify-content-center align-items-center flex-wrap">
+    <img src={{product.photo}} alt={{product.title}} class="rounded object-fit-cover" height="300" />
+    <div class="d-flex flex-column justify-content-center align-items-center">
+        <h1 class="mb-1">{{product.title}}</h1>
+        <div class="mb-3 w-100 text-start">
+            <span class="badge text-bg-secondary">{{product.category}}</span>
+        </div>
+        <h3>${{product.price}}</h3>
+        <p>Últimas {{product.stock}} unidades en stock</p>
+    </div>
+</div>

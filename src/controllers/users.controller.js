@@ -70,7 +70,6 @@ async function updateUser(req, res, next) {
 async function deleteUser(req, res, next) {
     try {
         const { uid } = req.params;
-        console.log(uid);
         const response = await usersManager.delete(uid);
         if (!response) {
             const error = new Error(`User with Id ${uid} not found`);
@@ -83,4 +82,81 @@ async function deleteUser(req, res, next) {
     }
 }
 
-export { getAllUsers, getUser, createUser, updateUser, deleteUser };
+function registerView(req, res, next) {
+    try {
+        return res.render("register");
+    } catch (error) {
+        return next(error);
+    }
+}
+
+async function createUserView(req, res, next) {
+    try {
+        const user = req.body;
+        await usersManager.create(user);
+        return res.render("login");
+    } catch (error) {
+        return next(error);
+    }
+}
+
+function loginView(req, res, next) {
+    try {
+        return res.render("login");
+    } catch (error) {
+        return next(error);
+    }
+}
+
+async function checkLoginView(req, res, next) {
+    try {
+        const { email, password } = req.body;
+        const allUsers = await usersManager.readAll();
+        const user = allUsers.filter((user) => user.email === email && user.password === password);
+        if (user.length > 0) {
+            req.session.user = user[0];
+            req.session.isAuthenticated = true;
+            return res.redirect("/");
+        }
+        return res.render("login");
+    } catch (error) {
+        return next(error);
+    }
+}
+
+async function profileView(req, res, next) {
+    try {
+        if (req.session.isAuthenticated) {
+            const user = await usersManager.readOne(req.session.user.id);
+            return res.render("profile", { user });
+        }
+        return res.redirect("/");
+    } catch (error) {
+        return next(error);
+    }
+}
+
+function logoutView(req, res, next) {
+    try {
+        if (req.session.isAuthenticated) {
+            req.session.destroy();
+        }
+        return res.redirect("/");
+    } catch (error) {
+        return next(error);
+    }
+}
+
+export {
+    getAllUsers,
+    getUser,
+    createUser,
+    updateUser,
+    deleteUser,
+    registerView,
+    createUserView,
+    loginView,
+    checkLoginView,
+    profileView,
+    logoutView,
+};

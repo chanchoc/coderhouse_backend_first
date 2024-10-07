@@ -32,7 +32,7 @@ class ProductsManager {
     async readOne(id) {
         try {
             const allProducts = await this.readAll();
-            const oneProduct = allProducts.filter((product) => product.id === id);
+            const oneProduct = allProducts.find((product) => product.id === id);
             return oneProduct;
         } catch (error) {
             console.log(error);

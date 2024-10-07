@@ -32,7 +32,7 @@ class UsersManager {
     async readOne(id) {
         try {
             const allUsers = await this.readAll();
-            const oneUser = allUsers.filter((user) => user.id === id);
+            const oneUser = allUsers.find((user) => user.id === id);
             return oneUser;
         } catch (error) {
             console.log(error);
