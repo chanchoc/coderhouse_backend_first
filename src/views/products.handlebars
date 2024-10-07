@@ -1,0 +1,14 @@
+<h1 class="mb-3 text-center fw-bold">{{category}}</h1>
+<section class="d-flex flex-row flex-wrap justify-content-evenly gap-3">
+    {{#each products}}
+        <div class="card bg-secondary-subtle shadow-sm border border-dark-subtle" style="width: 18rem;">
+            <img src={{this.photo}} class="card-img-top" alt={{this.title}} />
+            <div class="card-body">
+                <h5 class="card-title">{{this.title}}</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">{{this.category}}</h6>
+                <p class="card-text">${{this.price}} - {{this.stock}}u</p>
+                <a href="/products/{{this.id}}" class="btn btn-primary">Link</a>
+            </div>
+        </div>
+    {{/each}}
+</section>

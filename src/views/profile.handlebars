@@ -1,0 +1,12 @@
+<h1 class="text-center mb-3 fw-bold">Bienvenido!</h1>
+<div class="d-flex flex-row gap-5 justify-content-center align-items-center flex-wrap">
+    <img src={{user.photo}} alt={{user.email}} class="rounded object-fit-cover" height="300" />
+    <div class="d-flex flex-column justify-content-center align-items-center">
+        <h1 class="mb-1">{{user.email}}</h1>
+        <div class="mb-3 w-100 text-start">
+            <span class="badge text-bg-secondary">{{user.id}}</span>
+        </div>
+        <h3>Su rol asignado es: {{user.role}}</h3>
+        <a href="/users/logout" class="btn btn-primary mt-3">Log Out</a>
+    </div>
+</div>

@@ -1,0 +1,44 @@
+[
+    {
+        "email": "santiago.curat@gmail.com",
+        "password": "1234",
+        "photo": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png",
+        "role": 0,
+        "id": "7f4cc6ea27de8770ed4eaa54"
+    },
+    {
+        "email": "carlos.calvo@gmail.com",
+        "password": "45645",
+        "role": 1,
+        "photo": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png",
+        "id": "c9879843926d3e82a1dc7675"
+    },
+    {
+        "email": "juan.gomez@gmail.com",
+        "password": "78679",
+        "role": 0,
+        "photo": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png",
+        "id": "4eef125e388825e8aee1c782"
+    },
+    {
+        "email": "ignacio.cayol@gmail.com",
+        "password": "Hola123!",
+        "role": 2,
+        "photo": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png",
+        "id": "f43a57eb84dda64b144e0976"
+    },
+    {
+        "email": "santiago.curat@gmail.com",
+        "password": "1",
+        "photo": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png",
+        "role": 2,
+        "id": "9deb2bd829f900a57b186a29"
+    },
+    {
+        "email": "santiago.curat@gmail.com",
+        "password": "Soyelmejor2!",
+        "photo": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png",
+        "role": 2,
+        "id": "febaa23b70635c47c939f52a"
+    }
+]
