@@ -29,3 +29,8 @@ Se creo un gestor de productos (40 pre-cargados) y usuarios (4 pre-cargados) arm
 
 Los errores son manejados mediante un errorHandler.<br />
 Las rutas no existentes son manejadas mediante un pathHandler.
+
+# 2da entrega
+
+Se agregaron las distintas views solicitadas con el correspondiente manejo de sesiones.
+Agregué todas las librerías que fueron necesarias para poder armarlo de la manera que creí mejor.
