@@ -34,3 +34,7 @@ Las rutas no existentes son manejadas mediante un pathHandler.
 
 Se agregaron las distintas views solicitadas con el correspondiente manejo de sesiones.
 Agregué todas las librerías que fueron necesarias para poder armarlo de la manera que creí mejor.
+
+# Entrega final
+
+Se agregó toda la lógica de carrito con sus correspondientes handlebars.
