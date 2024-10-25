@@ -1,3 +1,4 @@
+import "dotenv/config.js";
 import express from "express";
 import morgan from "morgan";
 import cors from "cors";
@@ -12,11 +13,15 @@ import pathHander from "./src/middlewares/pathHandler.mid.js";
 import socketCb from "./src/routers/index.socket.js";
 import locals from "./src/middlewares/locals.mid.js";
 import methodOverride from "method-override";
+import dbConnect from "./src/utils/db.util.js";
 
 try {
     const server = express();
-    const port = 8000;
-    const ready = () => console.log("Server ready on port: " + port);
+    const port = process.env.PORT || 8080;
+    const ready = async () => {
+        console.log("Server ready on port: " + port);
+        await dbConnect();
+    };
     const httpServer = createServer(server);
     const tcpServer = new Server(httpServer);
     tcpServer.on("connection", socketCb);

@@ -69,7 +69,7 @@
         <tbody>
             {{#each products}}
                 <tr class="align-middle">
-                    <th scope="row">{{this.id}}</th>
+                    <th scope="row">{{this._id}}</th>
                     <td class="text-center"><img
                             src={{this.photo}}
                             alt={{this.title}}
@@ -89,7 +89,7 @@
                         >Edit</button>
                     </td>
                     <td class="text-center">
-                        <form action="/products/{{this.id}}?_method=DELETE" method="POST" class="m-0">
+                        <form action="/products/{{this._id}}?_method=DELETE" method="POST" class="m-0">
                             <button class="btn btn-danger" type="submit">Delete</button>
                         </form>
                     </td>

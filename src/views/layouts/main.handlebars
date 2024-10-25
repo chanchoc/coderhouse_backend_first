@@ -52,6 +52,13 @@
                         </li>
                         <a class="nav-link text-light" href="/products/admin" {{#unless isAuthenticated}}hidden{{/unless}}>Admin</a>
                         <a class="nav-link text-light" href="/users/profile" {{#unless isAuthenticated}}hidden{{/unless}}>Profile</a>
+                        <a href="/carts" {{#unless isAuthenticated}}hidden{{/unless}} class="px-2"><img
+                                src="/public/assets/cart.png"
+                                alt="Cart"
+                                loading="lazy"
+                                height="30"
+                                class="object-fit-cover"
+                            /></a>
                         <a class="nav-link text-light" href="/users/register" {{#if isAuthenticated}}hidden{{/if}}>Register</a>
                         <a class="nav-link text-light" href="/users/login" {{#if isAuthenticated}}hidden{{/if}}>Log In</a>
                         <a class="nav-link text-light" href="/users/logout" {{#unless isAuthenticated}}hidden{{/unless}}>Log Out</a>

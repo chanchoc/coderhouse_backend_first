@@ -3,7 +3,7 @@ import {
     adminView,
     createProductView,
     deleteProductView,
-    productsView,
+    paginateProductsView,
     productView,
     updateProductView,
 } from "../../controllers/products.controller.js";
@@ -11,7 +11,7 @@ import isValidProduct from "../../middlewares/isValidProduct.mid.js";
 
 const productsViewRouter = Router();
 
-productsViewRouter.get("/", productsView);
+productsViewRouter.get("/", paginateProductsView);
 productsViewRouter.get("/admin", adminView);
 productsViewRouter.post("/admin", isValidProduct, createProductView);
 productsViewRouter.get("/:pid", productView);

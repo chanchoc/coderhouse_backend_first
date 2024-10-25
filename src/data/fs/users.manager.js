@@ -82,5 +82,5 @@ class UsersManager {
     }
 }
 
-const usersManager = new UsersManager("./src/data/files/users.json");
+const usersManager = new UsersManager("./src/data/fs/files/users.json");
 export default usersManager;

@@ -19,5 +19,5 @@ editModal.addEventListener("show.bs.modal", (event) => {
     category.value = product.category;
     price.value = product.price;
     stock.value = product.stock;
-    form.action = `/products/${product.id}?_method=PUT`;
+    form.action = `/products/${product._id}?_method=PUT`;
 });
