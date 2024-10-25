@@ -6,12 +6,12 @@ function isValidProduct(req, res, next) {
             const error = new Error("Title is required");
             error.statusCode = 400;
             throw error;
-        } else if (price && isNaN(price)) {
-            const error = new Error("Price must be a number");
+        } else if (price && (isNaN(price) || price < 0)) {
+            const error = new Error("Price must be a number bigger than 0");
             error.statusCode = 400;
             throw error;
-        } else if (stock && isNaN(stock)) {
-            const error = new Error("Stock must be a number");
+        } else if (stock && (isNaN(stock) || stock < 0)) {
+            const error = new Error("Stock must be a number bigger than 0");
             error.statusCode = 400;
             throw error;
         } else if (category && !CATEGORIES.includes(category.toLowerCase())) {

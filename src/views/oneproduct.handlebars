@@ -1,5 +1,5 @@
 <div class="d-flex flex-row gap-5 justify-content-center align-items-center flex-wrap">
-    <img src={{product.photo}} alt={{product.title}} class="rounded object-fit-cover" height="300" />
+    <img src="{{product.photo}}" alt="{{product.title}}" class="rounded object-fit-cover" height="300" />
     <div class="d-flex flex-column justify-content-center align-items-center">
         <h1 class="mb-1">{{product.title}}</h1>
         <div class="mb-3 w-100 text-start">
@@ -7,5 +7,23 @@
         </div>
         <h3>${{product.price}}</h3>
         <p>Últimas {{product.stock}} unidades en stock</p>
+        <form action="/carts" method="POST" class="d-flex flex-column gap-3 justify-content-center m-0">
+            <input type="hidden" id="product_id" name="product_id" value="{{product._id}}" />
+            <input type="hidden" id="price" name="price" value="{{product.price}}" />
+            <input type="hidden" id="user_id" name="user_id" value="{{user_id}}" />
+            <div class="input-group">
+                <input
+                    type="number"
+                    name="quantity"
+                    value="1"
+                    class="form-control"
+                    min="1"
+                    max="{{product.stock}}"
+                />
+                <span class="input-group-text">Units</span>
+            </div>
+            <button class="btn btn-primary" type="submit" {{#unless isAuthenticated}}disabled{{/unless}}>Add to Cart</button>
+        </form>
+        <p style="font-size: 12px" {{#if isAuthenticated}}hidden{{/if}}>Login para agergar al carrito</p>
     </div>
 </div>

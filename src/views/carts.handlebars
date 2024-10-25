@@ -1,0 +1,62 @@
+<h1 class="text-center mb-3 fw-bold">Carrito de productos:</h1>
+<div class="d-flex flex-column flex-wrap align-items-center justify-content-center gap-3">
+    {{#if isAuthenticated}}
+        {{#if cart.length}}
+            {{#each cart}}
+                <div class="card mb-3 text-center" style="width: 600px">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img
+                                src="{{this.product_id.photo}}"
+                                alt="{{this.product_id.title}}"
+                                class="img-fluid rounded-start"
+                            />
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body p-2">
+                                <div class="d-flex flex-row align-items-center justify-content-center gap-3">
+                                    <h5>{{this.product_id.title}}</h5>
+                                    <span class="badge text-bg-secondary">{{this.product_id.category}}</span>
+                                </div>
+                            </div>
+                            <form action="/carts/{{this._id}}?_method=PUT" method="POST" class="mx-2 my-0">
+                                <div class="input-group">
+                                    <span class="input-group-text fw-bold">${{this.price}}/u</span>
+                                    <input
+                                        type="number"
+                                        name="quantity"
+                                        value="{{this.quantity}}"
+                                        class="form-control form-control-sm text-center"
+                                        min="1"
+                                        max="{{this.product_id.stock}}"
+                                    />
+                                    <span class="input-group-text" style="font-size: 12px">Units</span>
+                                    <button
+                                        class="btn btn-warning"
+                                        style="font-size: 12px"
+                                        type="submit"
+                                    >Editar</button>
+                                </div>
+                            </form>
+                            <form action="/carts/{{this._id}}?_method=DELETE" method="POST" class="mx-2 my-0 mt-2">
+                                <button class="btn btn-danger" style="font-size: 12px" type="submit">Eliminar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            {{/each}}
+            <div class="d-flex flex-row flex-wrap align-items-center justify-content-center gap-3">
+                <form action="/carts/?user_id={{user_id}}&_method=DELETE" method="POST" class="m-0">
+                    <button class="btn btn-danger" type="submit">Eliminar carrito</button>
+                </form>
+                <form action="/carts/?user_id={{user_id}}&_method=DELETE" method="POST" class="m-0">
+                    <button class="btn btn-success" type="submit">Checkout</button>
+                </form>
+            </div>
+        {{else}}
+            <p class="fs-3 mt-3">No tiene productos cargados en el carrito!</p>
+        {{/if}}
+    {{else}}
+        <p class="fs-3 mt-3">Debe loguearse para ver su carrito!</p>
+    {{/if}}
+</div>
